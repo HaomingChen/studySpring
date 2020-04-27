@@ -28,6 +28,9 @@ package org.aopalliance.aop;
 @SuppressWarnings("serial")
 public class AspectException extends RuntimeException {
 
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+	}
 	/**
 	 * Constructor for AspectException.
 	 * @param message the exception message

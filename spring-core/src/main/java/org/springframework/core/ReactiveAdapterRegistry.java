@@ -52,6 +52,9 @@ import org.springframework.util.ReflectionUtils;
  */
 public class ReactiveAdapterRegistry {
 
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+	}
 	@Nullable
 	private static volatile ReactiveAdapterRegistry sharedInstance;
 
